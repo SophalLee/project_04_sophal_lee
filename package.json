@@ -1,0 +1,22 @@
+{
+  "name": "project_04_sophal_lee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-db": "psql -U postgres -f sql/create_db.sql",
+    "create-tables": "psql -U postgres -d incode_project_04 -f sql/create_tables.sql",
+    "seed-tables": "psql -U postgres -d incode_project_04 -f sql/seed_tables.sql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SophalLee/project_04_sophal_lee.git"
+  },
+  "author": "Sophal Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SophalLee/project_04_sophal_lee/issues"
+  },
+  "homepage": "https://github.com/SophalLee/project_04_sophal_lee#readme"
+}
